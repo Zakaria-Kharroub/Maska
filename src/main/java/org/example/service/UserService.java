@@ -17,10 +17,9 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public List<User> findAllUsers(){
+    public List<User> findAllUsers() {
         return userRepository.findAll();
     }
-
     public boolean deleteUser(Long id){
         userRepository.deleteById(id);
         return true;
