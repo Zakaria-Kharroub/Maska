@@ -10,7 +10,6 @@
 <div class="container">
     <h1 class="text-center my-4">User Management</h1>
 
-    <!-- Form for adding a user -->
     <div class="card mb-4">
         <div class="card-header">
             Add New User
@@ -30,7 +29,6 @@
         </div>
     </div>
 
-    <!-- Table for displaying users -->
     <div class="card">
         <div class="card-header">
             User List
