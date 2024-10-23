@@ -35,6 +35,18 @@ public class HomeController {
         return "redirect:/";
     }
 
+    @PostMapping("/delete")
+    public String delete(@ModelAttribute("id") Long id) {
+        userService.deleteUser(id);
+        return "redirect:/";
+    }
+
+    @PostMapping("/update")
+    public String update(@ModelAttribute("user") User user) {
+        userService.updateUser(user);
+        return "redirect:/";
+    }
+
 
 
 }
