@@ -35,6 +35,11 @@ beans socopes est le cycle de vie d'un bean , est comment et quand un bean incta
 ApplicationContext est le conteneur principal pour manager les beans et leur cyvle de vie et aussi generer dependensy injection et les fichier de configuration
 
 ### Component Scanning and Stereotype Annotations
+component scanning est une fonctionnalite de spring qui ditect les enregistre les beans bases sur des annotation de steriotype :
+@Service : utilise pour les composants de couche service et contien logique metier
+@Repository : utilise pour les objet de objet d'acces aux donnes qui interagir avec database
+@Controller : utilise pour les classes qui generent les requete web dans spring MVC
+@Autowird : permet utiliser dans dependency injection , spring injecte les beans necessaire dans les classes qui en ont besoin
 
 ### Spring Data JPA
 
