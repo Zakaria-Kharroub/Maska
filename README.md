@@ -32,6 +32,7 @@ spring bean est un objet instancier et representent les composats de base de l'a
 beans socopes est le cycle de vie d'un bean , est comment et quand un bean inctancie dans l'application , par exemple un scope singleton cree un seul bean pour dans l'application , et scope prototype en cree un nouveau pour chaque demande.
 
 ### ApplicationContext
+ApplicationContext est le conteneur principal pour manager les beans et leur cyvle de vie et aussi generer dependensy injection et les fichier de configuration
 
 ### Component Scanning and Stereotype Annotations
 
