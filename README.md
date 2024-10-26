@@ -42,7 +42,9 @@ component scanning est une fonctionnalite de spring qui ditect les enregistre le
 @Autowird : permet utiliser dans dependency injection , spring injecte les beans necessaire dans les classes qui en ont besoin
 
 ### Spring Data JPA
+Spring data JPA est un module de soring simplifier l'integration avec JPA et il facilite les operation CRUD et requette complexes avec database et evite ecrir code repetitif et fourni des interface comme JpaRepository
 
 ### Spring MVC
+Spring est un framework spring qui permet construire des application web utilisan archetecture MVC, il structure les application web separant les couches d'access au donnees et la couche presentation et controller 
 
 ### Installation and Setup
