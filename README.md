@@ -22,8 +22,16 @@ la structure de projet est l'organisation des packages et les fichiers dans l'ap
 les repertoires pour les controllers et les models et les services et config
 la structure de projet aide a organiser le code pour facilite comprehention et navigation et maintenanace de projet 
 ### Dependency Injection (DI)
+Dependency Injection est une technique utiliser dans spring permettant a une class de recevir ses dependance d'une source externe et facilite la gestion de dependency entre les objets  rendant les cmoposants de l'application plus flexible et testable et il permet respecter les pricipe de inversion of controle IOC
+ils y a trois types de d'injection de dependance
+ 1 - injection par contsructor : les dependances sont injecter via les constructor de la class
+ 2 - injection par setter      : les dependances sont injecter via les methodes Setter
+ 3 - injection par Field       : les dependances sont injecter directement dans class field (generallement via 
+                                 des annotations)
+
 
 ### Inversion of Control (IoC)
+inversion of controle est un concept qui gere la creation et la gestion de objest et leur dependences , et permet les developpeur focus sur logique de l'application tandis que spring se charge de la gestion des objets et leur dependances rendant le code plus facile pour la  maintenance 
 
 ### Spring Beans
 spring bean est un objet instancier et representent les composats de base de l'application , configuer par les conteneur Spring IOC
