@@ -6,6 +6,7 @@ Spring MVC, and Spring Data JPA. It allows users to perform CRUD operations
 such as creating, viewing, updating, and deleting users through a web interface.
 
 ## Table of Contents
+
 - [Project Structure](#project-structure)
 - [Dependency Injection (DI)](#dependency-injection-di)
 - [Inversion of Control (IoC)](#inversion-of-control-ioc)
