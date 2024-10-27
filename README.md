@@ -57,3 +57,4 @@ Spring data JPA est un module de soring simplifier l'integration avec JPA et il 
 Spring est un framework spring qui permet construire des application web utilisan archetecture MVC, il structure les application web separant les couches d'access au donnees et la couche presentation et controller 
 
 ### Installation and Setup
+la configuration de Spring framework , ajouterles dependences dans pom.xml spring-data-jpa , spring orm ,hibernate core pour pour utiliser le module de Spring data et spring-webmvc pour Sprinng MVC et cree les fichiers de configuration application-context.xml pour defini les beans
